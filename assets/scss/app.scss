@@ -4,5 +4,17 @@
 // Import Tailwind CSS Components
 @import "~tailwindcss/components";
 
+/* purgecss start ignore */
+@font-face {
+  font-family: 'MonstroSolid';
+  src: url('assets/fonts/MonstroSolid.eot?#iefix') format('embedded-opentype'),
+       url('assets/fonts/MonstroSolid.woff') format('woff'),
+       url('assets/fonts/MonstroSolid.ttf') format('truetype'),
+       url('assets/fonts/MonstroSolid.svg#MonstroSolid') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* purgecss end ignore */
+
 // Import Tailwind CSS Utilities
 @import "~tailwindcss/utilities";
