@@ -21,6 +21,9 @@ module.exports = {
                 center: true,
                 padding: '4.375rem'
             },
+            inset: {
+                '1/2': '50%'
+            },
             spacing: {
                 '7': '1.75rem',
                 '9': '2.25rem',
@@ -29,7 +32,8 @@ module.exports = {
                 '18': '4.5rem',
                 '21-1/2': '5.375rem',
                 '28': '7rem',
-                '45': '11.25rem'
+                '45': '11.25rem',
+                'percent-70': '70%'
             },
             fontSize: {
                 'ms': '0.8125rem',
@@ -59,7 +63,8 @@ module.exports = {
     },
     variants: {
         scale: ['responsive', 'hover', 'focus', 'group-hover'],
-        opacity: ['responsive', 'hover', 'focus', 'group-hover']
+        opacity: ['responsive', 'hover', 'focus', 'group-hover'],
+        backgroundColor: ['responsive', 'hover', 'focus', 'group-hover'],
     },
     plugins: []
 };

@@ -10,6 +10,11 @@ require('laravel-mix-purgecss');
 // Do Laravel Mix
 mix.setPublicPath( '/' )
     .sass( 'assets/scss/app.scss', 'app.css' )
+    .copy( 'node_modules/jquery/dist/jquery.min.js', 'assets/js' )
+    .copy( 'node_modules/isotope-layout/dist/isotope.pkgd.min.js', 'assets/js' )
+    .copy( 'node_modules/imagesloaded/imagesloaded.pkgd.min.js', 'assets/js' )
+    .copy( 'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js', 'assets/js' )
+    .copy( 'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css', 'assets/css' )
     .options({
         processCssUrls: false,
         postCss: [ tailwindcss('tailwind.config.js') ]

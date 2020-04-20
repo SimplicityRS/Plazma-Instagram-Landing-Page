@@ -14,6 +14,13 @@
   font-weight: normal;
   font-style: normal;
 }
+.plazma-isotope {
+  width: 100% !important;
+
+  &__item {
+    @apply relative;
+  }
+}
 /* purgecss end ignore */
 
 // Import Tailwind CSS Utilities
